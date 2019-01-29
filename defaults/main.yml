@@ -1,0 +1,7 @@
+---
+# defaults file for aws
+
+aws_packages:
+  - epel-release
+  - jq
+  - awscli

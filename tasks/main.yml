@@ -1,0 +1,11 @@
+---
+# tasks file for aws
+
+- name: Install useful packages
+  yum:
+    name: '{{ aws_packages }}'
+    state: installed
+    #notify: update aide
+  tags:
+    - install
+
