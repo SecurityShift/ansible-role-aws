@@ -9,7 +9,7 @@
   tags:
     - install
 
-- name: Install useful packages
+- name: Install AWS CLI packages
   yum:
     name: '{{ aws_packages }}'
     state: installed
